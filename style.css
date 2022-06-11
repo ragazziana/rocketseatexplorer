@@ -31,7 +31,7 @@ img:hover{
 }
 
 #container{
-    margin-top: 90px;
+    margin-top: 70px;
     width: 80%;
     max-width: 400px;
     margin-inline: auto;
@@ -67,9 +67,9 @@ input, button{
 input{
     margin-bottom: 20px;
     letter-spacing: .3rem;
-    text-transform: uppercase;
     font-weight: bold;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 button{
@@ -86,4 +86,16 @@ button{
 button:hover{
     background-color: #717ed4;
     color: white;
+}
+
+#resposta{
+    margin-top: 3rem;
+    transition: opacity 1s;
+}
+
+#resposta div{
+    font-size: 1.6rem;
+    font-weight: normal;
+    opacity: .9;
+    margin-bottom: 1rem;
 }
